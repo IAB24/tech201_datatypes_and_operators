@@ -86,21 +86,22 @@
 # print(f"{name} is {years} years old and {height_cm}cm tall")
 
 # Fstrings allow us to use methods/evaulations too
-
-name = "Snoopy"
-years = 52
-
-print(f"{name.upper()} IS {years * 6} YEARS OLD IN DOG YEARS!!!")
-
-# F-strings to specify precision in rounding and decimals
-
-pi = 3.141593883995928257585892985328
-
-print(f"Pi to 3 decimal places: {pi:.3f}") # 3.142 to 3dp
-print(f"Pi to 3 decimal places: {pi:.5f}") # 3.14159 to 5dp
-
-score = 16
-max_score = 26
-print(f"You scored {score/max_score}") # You scored 0.6153846153846154
-print(f"You scored {score/max_score:%}") # You scored 61.538462%
-print(f"You scored {score/max_score:.2%}")
+#
+# name = "Snoopy"
+# years = 52
+#
+# print(f"{name.upper()} IS {years * 6} YEARS OLD IN DOG YEARS!!!")
+#
+# # F-strings to specify precision in rounding and decimals
+#
+# pi = 3.141593883995928257585892985328
+#
+# print(f"Pi to 3 decimal places: {pi:.3f}") # 3.142 to 3dp
+# print(f"Pi to 3 decimal places: {pi:.5f}") # 3.14159 to 5dp
+#
+# score = 16
+# max_score = 26
+# print(f"You scored {score/max_score}") # You scored 0.6153846153846154
+# print(f"You scored {score/max_score:%}") # You scored 61.538462%
+# print(f"You scored {score/max_score:.2%}") # You scored 61.54%
+# print(f"You scored {score/max_score:.0%}") # You scored 62%
